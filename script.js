@@ -1,25 +1,69 @@
+const hasDriversLicense = true
+const hasGoodVision = true
+
+console.log(hasDriversLicense && hasGoodVision)
+
+
+
+// const birthday = 1990
+// const canDrive = true
+// const age = 16
+
+
+// if ( age >= 20 && age < 30) {
+//   console.log("baby girl you are in your ")
+// } else {
+//   console.log("everything else")
+// }
+
+// prompt action
+//  const birthday = prompt("what is your birth year?")
+
+// if (birthday < 1990){
+//   console.log('you are to young for this party')
+// } else if (birthday == 2000 ){
+//   console.log('you are just rioght for this party')
+
+// } else {
+//   console.log('youa re to old for this party')
+// } 
+
+
+// const age = 121;
+
+// if (age == 18) {
+//   console.log("you are 18 years old")
+// } else if (age < 18) {
+//   console.log("you are younger then 18")
+//   //  block of code to be executed if the condition1 is false and condition2 is true
+// } else {
+//   console.log("way older then 18")
+//   //  block of code to be executed if the condition1 is false and condition2 is false
+// }
+
 // truthy & falsy values
+
 // falsy values:
-// 0, "", undefined, null, NaN
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean("jonas"));
-console.log(Boolean({}));
-console.log("hello big \n boy");
+//  0, "", undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("jonas"));
+// console.log(Boolean({}));
+// console.log("hello big \n boy");
 
-const money = 100;
+// const money = 100;
 
-if(money){
-  console.log("dont spend your money")
-} else{
-  console.log('you should get a job')
-}
+// if(money){
+//   console.log("dont spend your money")
+// } else{
+//   console.log('you should get a job')
+// }
 
-if(money != 0){
-  console.log('we got money')
-} else {
-  console.log(" no we dont have money")
-}
+// if(money != 0){
+//   console.log('we got money')
+// } else {
+//   console.log(" no we dont have money")
+// }
 
 
 // type conversion
