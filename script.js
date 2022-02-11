@@ -1,14 +1,79 @@
-const hasDriversLicense = true
-const hasGoodVision = true
+//switch case
 
-console.log(hasDriversLicense && hasGoodVision)
+const day = "Friday";
 
+// switch (day) {
+//   case "Monday": // day == monday
+//     console.log("plan course structure");
+//     console.log("go to coding meetup");
+//     break;
+//   case "Tuesday":
+//     console.log("we on tuesday");
+//     break;
+//   case "Wednesday":
+//   case "Thursday":
+//     console.log("both days we are fun");
+//     break;
+//   case "Friday":
+//     console.log("record video on friday");
+//     break;
+//   case "Saturday":
+//   case "Sunday":
+//     console.log("weekend warrior")
+//   break;
+//   default:
+//     console.log("invalidate date")
+// }
 
+if (day === "Monday"){
+  console.log("plan course structure");
+    console.log("go to coding meetup");
+} else if (day === "Tuesday"){
+  console.log("we on tuesday");
+} else if ( day === "Wednesday" || day === "Thursday") {
+  console.log("we on wednesday or thursday");
+} else if (day === "Friday") {
+  console.log("we on friday");
+} else if (day ===  "Saturday" || day === "Sunday"){
+  console.log("weekends are mine");
+} else{
+  console.log("Wrong answer")
+}
+   
+
+// const dolphins = Math.floor((96 + 108 + 89) / 3)
+// const koalas = Math.floor((109 + 95 + 106) / 3)
+
+// console.log("dolphin: ",dolphins)
+// console.log("koal: ", koalas)
+
+// if (dolphins > 100 && koalas > 100 && dolphins == koalas){
+//   console.log("you have tied")
+// } else if (dolphins > koalas && dolphins > 100){
+//   console.log(" dolphins have won")
+// } else if (dolphins < koalas && koalas > 100) {
+// console.log(" koalas have won")
+// } else {
+// console.log("no one has won")
+// }
+
+// const hasDriversLicense = true
+// const hasGoodVision = true
+// const isTired = false
+
+// console.log(!hasDriversLicense)
+
+// const shouldSarahDrive = hasDriversLicense && hasGoodVision
+
+// if (shouldSarahDrive && !isTired){
+//   console.log("sarah is able to drive!")
+// } else {
+//   console.log('someone else should drive...')
+// }
 
 // const birthday = 1990
 // const canDrive = true
 // const age = 16
-
 
 // if ( age >= 20 && age < 30) {
 //   console.log("baby girl you are in your ")
@@ -26,8 +91,7 @@ console.log(hasDriversLicense && hasGoodVision)
 
 // } else {
 //   console.log('youa re to old for this party')
-// } 
-
+// }
 
 // const age = 121;
 
@@ -64,7 +128,6 @@ console.log(hasDriversLicense && hasGoodVision)
 // } else {
 //   console.log(" no we dont have money")
 // }
-
 
 // type conversion
 // const inputYear = Number("1991");
