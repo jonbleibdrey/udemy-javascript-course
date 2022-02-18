@@ -1,19 +1,46 @@
 // strict mode
 "use strict";
 
-const friends= ["peter", 'micheal', 'steve']
-console.log(friends)
 
-const years = new Array(1991, 1984, 2008,2020)
-console.log(years)
+const funArray = ['CACA','tommy', "ben", 'jack']
 
-const freind1 = "micheal"
-const freind2 = "steven"
+// add
+const name1 = funArray.push("tomas")
+funArray.unshift("jon")
 
-console.log(friends[0])
-console.log(friends.length)
-console.log(friends[friends.length-1])
+// remove
+funArray.pop()
 
+
+
+console.log(name1)
+console.log(funArray)
+
+// const friends= ["peter", 'micheal', 'steve']
+// console.log(friends)
+
+
+// const freind1 = "micheal"
+// const freind2 = "steven"
+
+// console.log(friends[0])
+// console.log(friends.length)
+// console.log(friends[friends.length-1])
+
+// friends[2]='jon'
+
+// const jonathan = ["Jonathan", 'bleibdrey', 20 - 16, 'teacher', friends]
+// console.log(jonathan)
+
+// //excersize
+
+// const calcAge = function (birthyear){
+//   return 2037 - birthyear;
+// }
+
+// const years = [1990, 1987,1967, 1957]
+
+// console.log(calcAge(years[]))
 
 // function logger(){
 // console.log("my name is jonathan")
