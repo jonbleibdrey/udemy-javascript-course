@@ -1,20 +1,32 @@
 // strict mode
 "use strict";
 
+const bill = 100
 
-const funArray = ['CACA','tommy', "ben", 'jack']
+const calcTip = (bill) => {
+  return bill >= 50 && bill <= 300 ? bill * 0.5: bill * 0.2
+  
+}
 
-// add
-const name1 = funArray.push("tomas")
-funArray.unshift("jon")
-
-// remove
-funArray.pop()
+const bills = [125,555,44]
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+const totals = [bills[0] +tips[0], bills[1] +tips[1], bills[2] +tips[2]]
+console.log(tips, totals)
 
 
+// const funArray = ['CACA','tommy', "ben", 'jack']
 
-console.log(name1)
-console.log(funArray)
+// // add
+// const name1 = funArray.push("tomas")
+// funArray.unshift("jon")
+
+// // remove
+// funArray.pop()
+
+// funArray.unshift()
+
+// console.log(name1)
+// console.log(funArray)
 
 // const friends= ["peter", 'micheal', 'steve']
 // console.log(friends)
