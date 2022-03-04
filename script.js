@@ -1,17 +1,68 @@
 // strict mode
 "use strict";
 
-const bill = 100
+// const jonathan = {
+//   firstName: "jonathan",
+//   lastName: "Bleibdrey",
+//   height: "6'0",
+//   weight: "185",
+//   age: "35",
+//   job: "million dollar artist"
+// }
 
-const calcTip = (bill) => {
-  return bill >= 50 && bill <= 300 ? bill * 0.5: bill * 0.2
-  
+// console.log(jonathan)
+
+// //for loop will keep running while condition is true
+const jonsArray = ["jonas", "bleibdrey", 2037-1991, 'teacher', ['micheal','micheal',"jackson", 'geof']]
+const newArray = []
+
+for(let i = 0; i <= jonsArray.length; i++){
+  newArray.push(typeof jonsArray[i])
 }
 
-const bills = [125,555,44]
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
-const totals = [bills[0] +tips[0], bills[1] +tips[1], bills[2] +tips[2]]
-console.log(tips, totals)
+console.log(newArray)
+
+
+// const jonsArray = {
+
+//   firstName: "jonathan",
+//   lastName:  "Bleibdrey",
+//   age:   2037-1987,
+//   job: 'teacher',
+//   friends: ["micheal", "peter", "jack"]
+  
+// }
+
+// const interestedIn = prompt("what do yo want to know wabout me? first name, last name, age, job, freinds name?")
+
+// if (jonsArray[interestedIn]){
+//   console.log(jonsArray[interestedIn])
+// } else {
+//   console.log('woops wrong answer')
+// }
+
+
+
+// console.log(jonsArray['twitter'] = '@funfunbugs')
+
+// console.log(jonsArray)
+// console.log(jonsArray.friends[1])
+
+// const nameKey = 'Name'
+
+// console.log(`${jonsArray['firstName']} has ${jonsArray.friends.length}, and his best friend is called ${jonsArray.friends[0]}`)
+
+// const bill = 100
+
+// const calcTip = (bill) => {
+//   return bill >= 50 && bill <= 300 ? bill * 0.5: bill * 0.2
+  
+// }
+
+// const bills = [125,555,44]
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+// const totals = [bills[0] +tips[0], bills[1] +tips[1], bills[2] +tips[2]]
+// console.log(tips, totals)
 
 
 // const funArray = ['CACA','tommy', "ben", 'jack']
