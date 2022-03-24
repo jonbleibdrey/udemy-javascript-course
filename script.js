@@ -1,6 +1,46 @@
 // strict mode
 "use strict";
 
+
+
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.5: bill * 0.2
+}
+
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+const tips =[]
+const totals = []
+
+
+for(let i = 0; i < bills.length; i++){
+  const tip = calcTip(bills[i])
+  tips.push(tip);
+  totals.push(tip + bills[i])
+}
+
+console.log("bills",bills, "tips",tips, "totals",totals)
+// for (let rep = 1; rep <= 10; rep++){
+//   console.log(`lifting wights repetition ${rep}`)
+// }
+
+// let rep = 1
+// while (rep <= 10){
+//   console.log(`lifting weight repititon ${rep}`);
+//   rep++
+// }
+
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+
+// while (dice !== 6){
+//   console.log(`you rolled a ${dice}`)
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) console.log(`loop is about to end...`)
+// }
+
+
+
 // const jonathan = {
 //   firstName: "jonathan",
 //   lastName: "Bleibdrey",
@@ -15,13 +55,13 @@
 //   console.log(i, jonsArray[i])
 // }
 
-for (let exercise = 1; exercise < 4; exercise++){
-  console.log(`------------------starting exercise ${exercise}`);
+// for (let exercise = 1; exercise < 4; exercise++){
+//   console.log(`------------------starting exercise ${exercise}`);
 
-  for (let rep = 1; rep < 6; rep++){
-    console.log(` excersise ${exercise} lifting weight rep ${rep}`)
-  }
-}
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(` excersise ${exercise} lifting weight rep ${rep}`)
+//   }
+// }
 
 // console.log()
 
