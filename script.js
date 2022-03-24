@@ -9,18 +9,40 @@
 //   age: "35",
 //   job: "million dollar artist"
 // }
+// const jonsArray = ["jonas", "bleibdrey", 2037-1991, 'teacher', ['micheal','micheal',"jackson", 'geof']]
 
-// console.log(jonathan)
+// for (let i = jonsArray.length - 1; i >= 0; i--){
+//   console.log(i, jonsArray[i])
+// }
 
-// //for loop will keep running while condition is true
-const jonsArray = ["jonas", "bleibdrey", 2037-1991, 'teacher', ['micheal','micheal',"jackson", 'geof']]
-const newArray = []
+for (let exercise = 1; exercise < 4; exercise++){
+  console.log(`------------------starting exercise ${exercise}`);
 
-for(let i = 0; i <= jonsArray.length; i++){
-  newArray.push(typeof jonsArray[i])
+  for (let rep = 1; rep < 6; rep++){
+    console.log(` excersise ${exercise} lifting weight rep ${rep}`)
+  }
 }
 
-console.log(newArray)
+// console.log()
+
+// //for loop will keep running while condition is true
+// const newArray = []
+
+// const years = [1919, 1920, 1930, 1940, 2020]
+// const newYears= []
+
+
+
+// for(let i = 0; i < jonsArray.length; i++){
+//   if(typeof jonsArray[i] !== 'string') continue;
+  
+//   // newYears.push(2037 - years[i])
+//   // newArray.push(jonsArray[i])
+// }
+
+// console.log(newYears)
+
+
 
 
 // const jonsArray = {
